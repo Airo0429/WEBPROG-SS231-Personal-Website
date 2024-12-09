@@ -1,53 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Personal Profile Web Page</title>
+    <link rel="stylesheet" href="css/flexbox-grid.css?version=0.1"> 
+    <title>Flexbox and Grid</title>
 </head>
 <body>
 
-<h1>Personal Profile Web Page</h1>
+<div class="container">
+    <!-- Header Section -->
+    <header>
+        <h1>Personal Profile Web Page</h1>
+    </header>
 
-<h2>About Me</h2>
-<p>
-    Hi, I’m Rhime Airo O. Ravinera, but you can call me Airo. I’m currently taking up BS Computer Science specializing in Software Systems. Initially, I considered Culinary Arts or Veterinary Medicine, but I chose Computer Science after seeing the success of a relative in the field.
-</p>
+    <main>
+        <!-- Main Content Section -->
+        <section class="main-content">
+            <!-- About Me -->
+            <div>1 <br><strong>About Me</strong>
+                <p>Hi, I’m Rhime Airo O. Ravinera, but you can call me Airo. I’m currently taking up BS Computer Science specializing in Software Systems. Initially, I considered Culinary Arts or Veterinary Medicine, but I chose Computer Science after seeing the success of a relative in the field.</p>
+            </div>
+            
+            <!-- Education / Achievements -->
+            <div>2 <br><strong>Education / Achievements</strong>
+                <p>Graduated from senior high school at APC in Makati City.</p>
+            </div>
+            
+            <!-- Course -->
+            <div>3 <br><strong>Course</strong>
+                <p>BS Computer Science specializing in Software Systems.</p>
+            </div>
 
-<h2>Education / Achievements</h2>
-<p>
-    Graduated from senior high school at APC in Makati City.  
-</p>
+            <!-- IT Experience -->
+            <div>4 <br><strong>IT Experience</strong>
+                <p>No experience in programming, just played sports and tried playing competitively in League of Legends for a year.</p>
+            </div>
 
-<h2>Course</h2>
-<p>
-    BS Computer Science specializing in Software Systems.
-</p>
+            <!-- Hobbies & Interests -->
+            <div>5 <br><strong>Hobbies & Interests</strong>
+                <ul>
+                    <li>Basketball</li>
+                    <li>Swimming</li>
+                    <li>Running</li>
+                    <li>RC Racing</li>
+                    <li>Taking care of 2 dogs, 2 cats, and 2 ducks</li>
+                    <li>Reptile keeping (Leopard Tortoise, Sulcata Tortoise, Indian Star Tortoise)</li>
+                    <li>Sneaker collecting</li>
+                    <li>Teasing friends</li>
+                </ul>
+            </div>
 
-<h2>IT Experience</h2>
-<p>
-    No experience in programming, just played sports and tried playing competitively in League of Legends for a year.
-</p>
+            <!-- Goals In Life / Dream -->
+            <div>6 <br><strong>Goals In Life / Dream</strong>
+                <p>My goal in life is to be rich enough to make a home for the elderly. As a family, my cousins and I aim to achieve collective wealth. My dream is to be the best son to my parents, the best husband to my wife, and the best for God.</p>
+            </div>
 
-<h2>Hobbies & Interests</h2>
-<p>
-    Basketball, swimming, running, RC racing, taking care of 2 dogs, 2 cats, and 2 ducks, reptile keeping (Leopard Tortoise, Sulcata Tortoise, Indian Star Tortoise), sneaker collecting, and teasing friends.
-</p>
+            <!-- Picture Gallery -->
+            <div>7 <br><strong>Picture Gallery</strong>
+                <table border="1" cellspacing="3" cellpadding="5">
+                    <tr>
+                        <td align="center">
+                            <img src="https://raw.githubusercontent.com/Airo0429/WEBPROG-SS231-Personal-Website/main/Isaiah%204110.png" alt="Image" width="500" height="333">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
 
-<h2>Goals in Life / Dream</h2>
-<p>
-    My goal in life is to be rich enough to make a home for the elderly. As a family, my cousins and I aim to achieve collective wealth. My dream is to be the best son to my parents, the best husband to my wife, and the best for God.
-</p>
+        <!-- Sidebar Section -->
+        <aside class="sidebar">
+            <strong>Sidebar</strong>
+            <br>Picture Gallery
+        </aside>
+    </main>
 
-<h2>Picture Gallery</h2>
-<table border="1" cellspacing="3" cellpadding="5">
-    <tr>
-        <td align="center">
-            <img src="https://raw.githubusercontent.com/Airo0429/WEBPROG-SS231-Personal-Website/main/Isaiah%204110.png" alt="Image" width="500" height="333">
-
-           </td>
-      
-    </tr>
-   
-</table>
+    <!-- Footer Section -->
+    <footer>Asia Pacific College</footer>
+</div>
 
 </body>
 </html>
