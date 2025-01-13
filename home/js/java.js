@@ -3,11 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
     starsContainer.style.position = 'absolute';
     starsContainer.style.width = '100%';
     starsContainer.style.height = '100%';
-    starsContainer.style.zIndex = '-3';
-    starsContainer.style.top = 0;
-    starsContainer.style.left = 0;
+    starsContainer.style.zIndex = '-1';
 
-    // Add 200 stars to the page
+
     for (let i = 0; i < 200; i++) {
         const star = document.createElement('div');
         star.classList.add('star');
@@ -18,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.body.appendChild(starsContainer);
 
-    // Function to add falling stars
     function createFallingStar() {
         const fallingStar = document.createElement('div');
         fallingStar.classList.add('falling-star');
@@ -27,18 +24,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         document.body.appendChild(fallingStar);
 
-        // Remove the falling star after animation
+   
         fallingStar.addEventListener('animationiteration', () => {
             fallingStar.remove();
         });
     }
 
-    // Create falling stars every 1 second
+ 
     setInterval(createFallingStar, 1000);
-
-    // Function to toggle content visibility with animation
-    window.toggleSection = (sectionId) => {
-        const section = document.getElementById(sectionId);
-        section.classList.toggle('show');
-    };
 });
