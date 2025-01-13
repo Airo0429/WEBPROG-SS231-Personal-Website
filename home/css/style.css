@@ -1,19 +1,21 @@
+/* General body settings */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #111;
     color: #fff;
     overflow: hidden;
     position: relative;
 }
 
+/* Styling for the headings */
 h1, h2 {
     text-align: center;
-    color: #4CAF50;
-    position: relative;
-    z-index: 1; 
+    color: #ff66cc; /* Pony-inspired pinkish color */
 }
 
+/* Starry sky background */
 .star-background {
     position: absolute;
     width: 100%;
@@ -22,6 +24,7 @@ h1, h2 {
     z-index: -2;
 }
 
+/* Individual stars that twinkle */
 .star {
     position: absolute;
     background-color: white;
@@ -31,11 +34,13 @@ h1, h2 {
     height: 2px;
 }
 
+/* Keyframe animation for the twinkling stars */
 @keyframes twinkle {
     0%, 100% { opacity: 0.2; }
     50% { opacity: 1; }
 }
 
+/* Moon styling */
 .moon {
     position: absolute;
     top: 15%;
@@ -51,18 +56,73 @@ h1, h2 {
     animation: moonGlow 4s infinite alternate;
 }
 
+/* Moon glow animation */
 @keyframes moonGlow {
     0% { box-shadow: 0px 0px 20px rgba(211, 211, 211, 0.4); }
     100% { box-shadow: 0px 0px 50px rgba(211, 211, 211, 0.8); }
 }
 
-body::before {
-    content: "";
+/* Styling for falling stars */
+.falling-star {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #111; /* Dark background for the upper part */
-    z-index: -1; /* Places the background behind everything */
+    top: -10px;
+    background-color: white;
+    border-radius: 50%;
+    width: 3px;
+    height: 3px;
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+/* Keyframe animation for falling stars */
+@keyframes fall {
+    0% {
+        top: -10px;
+        opacity: 0.8;
+    }
+    100% {
+        top: 100%;
+        opacity: 0.1;
+    }
+}
+
+/* Button styling */
+button {
+    background-color: #ff66cc; /* A nice pinkish color matching MLP theme */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff3399; /* Darker pink on hover */
+}
+
+/* Styling for the table containing the image */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* General alignment and padding */
+p, h2 {
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Add a nice border to images */
+img {
+    border: 5px solid #fff;
+    border-radius: 10px;
 }
