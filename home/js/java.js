@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
     stars.style.overflow = 'hidden';
     stars.style.zIndex = '-1'; 
     
-   
-    for (let i = 0; i < 100; i++) {
+    // Add 500 stars for a full starry background
+    for (let i = 0; i < 500; i++) {
         const star = document.createElement('div');
         star.classList.add('star');
         star.style.top = Math.random() * 100 + '%';
