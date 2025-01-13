@@ -1,54 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equestria: Personal Profile</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-   
-
-</head>
-<body>
-
-    <div class="star-background"></div>
-    <div class="moon"></div>
-
-    <h1>Welcome to Equestria</h1>
-
-    <h2>About Me</h2>
+<h2 onclick="toggleSection('aboutMe')">About Me</h2>
+<div id="aboutMe" class="content-section">
     <p>
         Hi, I’m Rhime Airo O. Ravinera, but you can call me Airo. I’m currently taking up BS Computer Science specializing in Software Systems. I’m here in Equestria to explore the magic of programming and technology, just like Twilight Sparkle uses her magic for good!
     </p>
-
     <button onclick="alert('Welcome to Equestria!')">Explore More</button>
+</div>
 
-    <h2>Education / Achievements</h2>
+<h2 onclick="toggleSection('education')">Education / Achievements</h2>
+<div id="education" class="content-section">
     <p>
         Graduated from senior high school at APC in Makati City. I aim to build a magical system, just like the magic of friendship that is ever so strong in Equestria!
     </p>
+</div>
 
-    <h2>Course</h2>
+<h2 onclick="toggleSection('course')">Course</h2>
+<div id="course" class="content-section">
     <p>
         BS Computer Science specializing in Software Systems. I hope to bring some magic to the world of technology.
     </p>
+</div>
 
-    <h2>IT Experience</h2>
+<h2 onclick="toggleSection('itExperience')">IT Experience</h2>
+<div id="itExperience" class="content-section">
     <p>
         No experience in programming yet, but I’m ready to learn and grow—just like how each pony learns new things about friendship and life.
     </p>
+</div>
 
-    <h2>Hobbies & Interests</h2>
+<h2 onclick="toggleSection('hobbies')">Hobbies & Interests</h2>
+<div id="hobbies" class="content-section">
     <p>
         Basketball, swimming, running, RC racing, and, of course, taking care of my animals. I love reptiles like the majestic dragons of Equestria, and I also enjoy sneaker collecting, just like Rarity's fabulous style!
     </p>
+</div>
 
-    <h2>Goals in Life / Dream</h2>
+<h2 onclick="toggleSection('goals')">Goals in Life / Dream</h2>
+<div id="goals" class="content-section">
     <p>
         My goal in life is to help others and build a better world. I hope to be as kind and helpful as Fluttershy and to dream as big as Princess Celestia herself.
     </p>
+</div>
 
-    <h2>Picture Gallery</h2>
+<h2 onclick="toggleSection('gallery')">Picture Gallery</h2>
+<div id="gallery" class="content-section">
     <table>
         <tr>
             <td align="center">
@@ -56,8 +50,4 @@
             </td>
         </tr>
     </table>
-
-    <script src="js/java.js"></script>
-
-</body>
-</html>
+</div>
