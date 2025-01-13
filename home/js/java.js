@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
     stars.style.width = '100%';
     stars.style.height = '100%';
     stars.style.overflow = 'hidden';
-    stars.style.zIndex = '-1'; // Keep it behind the rest of the content
+    stars.style.zIndex = '-1'; 
     
-    // Add 100 stars
+   
     for (let i = 0; i < 100; i++) {
         const star = document.createElement('div');
         star.classList.add('star');
