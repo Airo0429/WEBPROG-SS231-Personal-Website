@@ -14,9 +14,9 @@ new Vue({
         data() {
           return {
             images: [
-              'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmy-little-pony-friendship-is-magic-rakoon1.fandom.com%2Fwiki%2FTwilight_Sparkle_%2528SS%2529&psig=AOvVaw2GzZpC8PNdO1BqObpD8eqP&ust=1736869258582000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPj-3quE84oDFQAAAAAdAAAAABAU', // Example image URLs
-              'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmlp.fandom.com%2Fes%2Fwiki%2FPinkie_Pie&psig=AOvVaw0SbKbjaFY9ZkqbBjcawI7R&ust=1736869954583000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODkmveG84oDFQAAAAAdAAAAABAE',
-              'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmlp.fandom.com%2Fwiki%2FRarity&psig=AOvVaw3_zS2pvxMmlKx7d32t6bsc&ust=1736869308180000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOCK7MKE84oDFQAAAAAdAAAAABAE'
+              'https://static.wikia.nocookie.net/mlp/images/4/42/PinkiePie.png/revision/latest?cb=20140611235315&path-prefix=es', 
+              'https://static.wikia.nocookie.net/mlp/images/d/d1/Rarity_standing_S1E19_CROPPED.png/revision/latest/scale-to-width-down/225?cb=20130418142043',
+              'https://static.wikia.nocookie.net/mlp/images/4/4b/Rainbow_Dash_Wonderbolt_fantasy_cropped_S1E3.png/revision/latest?cb=20210206044556'
             ]
           };
         }
