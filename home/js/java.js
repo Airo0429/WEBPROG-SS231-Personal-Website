@@ -5,7 +5,15 @@ document.addEventListener('DOMContentLoaded', () => {
     stars.style.height = '100%';
     stars.style.overflow = 'hidden';
     stars.style.zIndex = '-1';
-    stars.innerHTML = Array(100).fill('<div class="star"></div>').join('');
+    
+    // Add 100 stars
+    for (let i = 0; i < 100; i++) {
+        const star = document.createElement('div');
+        star.classList.add('star');
+        star.style.top = Math.random() * 100 + '%';
+        star.style.left = Math.random() * 100 + '%';
+        stars.appendChild(star);
+    }
     document.body.appendChild(stars);
 
     const starStyle = document.createElement('style');
@@ -17,8 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
             animation: twinkle 2s infinite ease-in-out;
             width: 2px;
             height: 2px;
-            top: ${Math.random() * 100}%;
-            left: ${Math.random() * 100}%;
         }
 
         @keyframes twinkle {
