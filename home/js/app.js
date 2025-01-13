@@ -14,9 +14,9 @@ new Vue({
         data() {
           return {
             images: [
-              'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmlp.fandom.com%2Fwiki%2FPinkie_Pie&psig=AOvVaw3JgGAr7TncPE-65lITpruT&ust=1736869228597000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLjbgp2E84oDFQAAAAAdAAAAABAE', // Example image URLs
-              'https://static.wikia.nocookie.net/my-little-pony-friendship-is-magic-rakoon1/images/6/6c/Twilight_S2E25_cropped.png/revision/latest?cb=20171229183224',
-              'https://static.wikia.nocookie.net/mlp/images/d/d1/Rarity_standing_S1E19_CROPPED.png/revision/latest/scale-to-width-down/225?cb=20130418142043/200'
+              'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmy-little-pony-friendship-is-magic-rakoon1.fandom.com%2Fwiki%2FTwilight_Sparkle_%2528SS%2529&psig=AOvVaw2GzZpC8PNdO1BqObpD8eqP&ust=1736869258582000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPj-3quE84oDFQAAAAAdAAAAABAU', // Example image URLs
+              'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmlp.fandom.com%2Fes%2Fwiki%2FPinkie_Pie&psig=AOvVaw0SbKbjaFY9ZkqbBjcawI7R&ust=1736869954583000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODkmveG84oDFQAAAAAdAAAAABAE',
+              'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmlp.fandom.com%2Fwiki%2FRarity&psig=AOvVaw3_zS2pvxMmlKx7d32t6bsc&ust=1736869308180000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOCK7MKE84oDFQAAAAAdAAAAABAE'
             ]
           };
         }
