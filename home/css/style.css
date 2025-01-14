@@ -1,17 +1,19 @@
 .header {
-  background-color: #FF66CC;
-  color: #ffffff;
-  padding: 15px;
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: bold;
-  box-shadow: 0px 4px 8px rgba(255, 102, 204, 0.5);
+    background-color: #FF66CC;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(255, 102, 204, 0.5);
 }
+
 
 a {
     color: #FF66CC;
     text-decoration: none;
-    font-weight: bold; 
+    font-weight: bold;
+    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 a:hover {
@@ -19,39 +21,44 @@ a:hover {
     background-color: #FF99CC;
     padding: 5px;
     border-radius: 5px;
-  
 }
+
+
 body {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #111;
     color: #fff;
-    position: relative;
     font-size: 18px;
+    line-height: 1.6;
 }
+
 
 h1 {
     font-size: 36px;
+    margin-top: 20px;
 }
 
 h2 {
     font-size: 28px;
     text-align: center;
-    color: #ff66cc;
+    color: #FF66CC;
+    margin: 20px 0;
 }
+
 
 p {
     font-size: 20px;
-    line-height: 1.6;
-    margin: 10px auto;
+    margin: 20px auto;
     width: 80%;
+    text-align: justify;
 }
 
 .gallery-table {
     border-collapse: separate;
-    border-spacing: 3px;
-    margin: 20px auto;
+    border-spacing: 10px;
+    margin: 30px auto;
 }
 
 .gallery-table td {
@@ -60,11 +67,18 @@ p {
     text-align: center;
 }
 
+
 .gallery-image {
-    width: 500px;
-    height: 333px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     box-shadow: 0px 0px 10px rgba(255, 102, 204, 0.8);
     border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
 }
 
 
@@ -88,6 +102,7 @@ p {
     0%, 100% { opacity: 0.2; }
     50% { opacity: 1; }
 }
+
 
 .mlp-moon {
     position: absolute;
@@ -142,6 +157,3 @@ p {
     0% { top: -10px; opacity: 0.8; }
     100% { top: 100%; opacity: 0.1; }
 }
-
-
-
