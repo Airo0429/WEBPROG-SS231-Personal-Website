@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    setInterval(createFallingStar, 1000);
+    setInterval(createFallingStar, 500);
 
     const moon = document.createElement('div');
     moon.classList.add('mlp-moon');
