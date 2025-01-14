@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     starsContainer.style.height = '100%';
     starsContainer.style.zIndex = '-1';
 
-    for (let i = 0; i < 200; i++) {
+    for (let i = 0; i < 600; i++) {
         const star = document.createElement('div');
         star.classList.add('star');
         star.style.top = Math.random() * 100 + '%';
