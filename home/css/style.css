@@ -8,6 +8,19 @@
   box-shadow: 0px 4px 8px rgba(255, 102, 204, 0.5);
 }
 
+a {
+    color: #FF66CC;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+a:hover {
+    color: #111111;
+    background-color: #FF99CC;
+    padding: 5px;
+    border-radius: 5px;
+  
+}
 body {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
